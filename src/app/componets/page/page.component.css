@@ -1,0 +1,103 @@
+#container {
+  position: relative;
+  
+}
+p{
+font-size:16px;
+margin-bottom:0.5rem;
+}
+.h1, h1 {
+    font-size: 2rem;
+}
+#container img {vertical-align: middle;}
+
+#container .content {
+  position: absolute;
+  bottom: 25%;
+  color: #f1f1f1;
+  width:30%;
+  margin-left:12%;
+  
+}
+.logo{
+width:150px;
+margin-left:12%;
+padding-top:15px;
+padding-bottom:15px;
+}
+.btn{
+color:#041e42;
+border-radius:20px;
+padding:8px 25px;
+outline:none;
+background-color:#48e4c2;
+font-size:14px
+}
+.btn:hover,.btn:active{
+color:#fff;
+border-radius:20px;
+padding:8px 25px;
+background-color:#041e42;
+outline:none;
+}
+#headerbanner{
+background-color:#fff;
+}
+.apicontent{
+margin-left:10%;
+margin-right:10%;
+}
+.stepunderline{
+border-bottom:4px solid #48e4c2;
+width:20%;
+margin-bottom:5%;
+}
+.tittle{
+font-size:16px;
+font-weight:bold;
+color:#041E42;
+text-transform: uppercase;
+}
+.bodycontent{
+font-size:14px;
+color:#041E42;
+}
+.contentdiv {
+padding-top:2%;
+margin-bottom:2%;
+color:#041E42;
+}
+.stepnumber{
+font-size:40px;
+color:#041E42;
+}
+.seconddiv{
+background-color: #f8f9fa;
+margin-left:-15px;
+margin-right:-15px;
+padding-bottom:3%;
+}
+@media (max-width: 768px){
+#container .content {
+  position: absolute;
+  bottom:5%;
+  color: #f1f1f1;
+  width:80%;
+  margin-left:2%;
+  
+}
+.bannerlogo{
+width:100%;
+height:400px;
+}
+.logo{
+width:150px;
+padding-top:3%;
+padding-bottom:3;
+margin-left:2%;
+}
+h1, h1 {
+    font-size:2rem;
+}
+}
+

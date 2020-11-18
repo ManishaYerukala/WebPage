@@ -1,0 +1,40 @@
+<div class="container-fluid">
+   <div class="row" id="headerbanner">
+      <div class="logo"><img src="assets/images/logo-endless.svg" /></div>
+   </div>
+   <div class="row" id="container">
+      <img class="bannerlogo" src="assets/images/banner.jpg" style="width:100%;">
+      <div class="content">
+         <p>New Games & Accessories.</p>
+         <h1>Monthly Packages.
+            <br>Excitement delivered daily.
+         </h1>
+         <p>
+            What's the best way to stop for the latest video games
+            and peripherals ? How about never shopping at all?
+            you'll get new stuff on your door stop - every month.
+         </p>
+         <br />
+         <button class="btn">GET STARTED</button>
+      </div>
+   </div>
+   <div class="seconddiv">
+      <center>
+         <h1 class="contentdiv ">How It Works</h1>
+      </center>
+      <div class="row apicontent">
+         <div class="col-md-3 versionPanel" *ngFor="let pageObj of pageInfoList">
+            <center>
+               <h1 class="stepnumber text-center"> {{pageObj.stepNumber}}</h1>
+               <div class="stepunderline"></div>
+            </center>
+            <div>
+               <center>
+                  <p class="tittle"> {{pageObj.versionContent[0].title}}</p>
+                  <p class="bodycontent"> {{pageObj.versionContent[0].body}}</p>
+               </center>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
